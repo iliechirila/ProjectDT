@@ -5,12 +5,15 @@ git clone {project http clone link}
 
 npm install vue
 npm install -g vue-cli
+npm install --save axios
 
 //client
 npm install
-vue init bla bla bla 
+vue init webpack client
 
 //server
 npm start  // starts the server on app.js. To change the destination that's being called by lint, see package.json in server, under scripts, and change the server in the json
 
-
+//possible questions
+--save basically adds that feature permanently
+localhost 8081 -> used for get&post (vezi postman si cum se foloseste in part 1, capitol register setup)
