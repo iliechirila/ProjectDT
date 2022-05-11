@@ -8,8 +8,12 @@ npm install -g vue-cli
 npm install --save axios
 
 //client
+vue init webpack client	//to create the client
 npm install
-vue init webpack client
+npm start //==npm run dev
+	//"dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+        //"start": "node build/dev-server.js",
+        //"build": "node build/build.js",
 
 //server
 npm start  // starts the server on app.js. To change the destination that's being called by lint, see package.json in server, under scripts, and change the server in the json
